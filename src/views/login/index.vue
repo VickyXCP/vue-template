@@ -31,9 +31,14 @@
 </template>
 
 <script>
+  import {isvalidUsername} from '../../utils/validate'
+
   export default {
     name: 'index',
     data () {
+      const validUsername = (rule, value, callback)=>{
+        // if()
+      }
       return {
         loginForm: {
           username: '',
@@ -55,6 +60,6 @@
   }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>
